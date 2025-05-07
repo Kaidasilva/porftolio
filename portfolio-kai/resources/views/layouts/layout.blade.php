@@ -9,9 +9,10 @@
     <link rel="stylesheet" href={{asset("styles/animation.css")}}>
     <script src={{asset("scripts/animation-observer.js")}} defer></script>
     <script src={{asset("scripts/hamburger.js")}} defer></script>
+    @vite('resources/js/app.js')
 </head>
 <body>
-<header class="flex z-40 top-0 sticky justify-center shadow-2xl place-items-center">
+<header class="flex z-40 top-0 sticky justify-center place-items-center">
     <nav class="min-w-full bg-white py-4 px-8 md:py-4 md:px-24">
         <div class="md:hidden flex min-w-[90%] items-center justify-between">
             <a href="/"><img alt="logo" src={{asset("images/kai-logo.png")}} class="w-20"></a>
@@ -25,18 +26,14 @@
             <div class="p-6 grid gap-y-8 bg-white">
                 <div class="flex flex-col gap-4">
                     <a class="relative group text-2xl font-bold"
-                       href="/">Home</a>
-                    <a class="relative group text-2xl font-bold"
                        href="{{ url('/aboutme') }}">About me</a>
                     <a class="relative group text-2xl font-bold"
-                       href="{{ url('/experiences') }}">Experiences</a>
-                    <a class="relative group text-2xl font-bold"
-                       href="{{ url('/projects') }}">Projects</a>
+                       href="{{ url('/portfolio') }}">Portfolio</a>
                 </div>
 
                 <div class="flex w-[50%] gap-4">
-                    <a href="" class="relative bg-[#1D1D1B] text-white font-bold py-2 px-4 rounded-full overflow-hidden group shadow-lg transition-all duration-500 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-[#A8543C] before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out hover:text-white">
-                        <span class="relative z-10">Contact</span>
+                    <a href="" class="relative bg-neutral-400 text-white font-bold py-2 px-4 rounded-full overflow-hidden group shadow-lg transition-all duration-500 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-bg-neutral-600 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out hover:text-white">
+                        <span class="relative z-10">💬 Contact</span>
                     </a>
                 </div>
             </div>
@@ -48,14 +45,10 @@
                     <a href="/"><img alt="logo" class="w-30" src={{asset("images/kai-logo.png")}} ></a>
                 </div>
                 <div class="min-w-max pl-12  font-bold">
-                    <a class="relative group hover:text-neutral-400 transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
-                       href="/">Home</a>
                     <a class="relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
                        href="{{ url('/aboutme') }}">About me</a>
                     <a class="relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
-                       href="{{ url('/experiences') }}">Experiences</a>
-                    <a class="relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
-                       href="{{ url('/projects') }}">Projects</a>
+                       href="{{ url('/portfolio') }}">Portfolio</a>
                 </div>
             </div>
         </div>
@@ -66,7 +59,7 @@
 </main>
 
 <footer>
-    <div class="flex place-items-center justify-self-end gap-4">
+    <div class="md:flex hidden place-items-center justify-self-end gap-4">
         <a href="" class="fixed flex flex-row items-center justify-center bottom-5 right-5 shadow-2xl bg-neutral-400 text-white font-bold p-2  rounded-full overflow-hidden group transition-all duration-500 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-600 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out hover:text-white">
             <span class="relative z-10">💬 Contact</span>
         </a>

@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b5d2cea-3a85-4dfd-9c2e-deeb0bada599" name="Changes" comment="[US-1] Reworked the header and made the main a lil better">
-      <change afterPath="$PROJECT_DIR$/portfolio-kai/public/images/taskbar-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/aboutme.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/experiences.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/projects.blade.php" afterDir="false" />
+    <list default="true" id="7b5d2cea-3a85-4dfd-9c2e-deeb0bada599" name="Changes" comment="[US-1] Created new pages and worked on a contact button">
+      <change afterPath="$PROJECT_DIR$/portfolio-kai/resources/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-kai/public/scripts/animation-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/js/animation-observer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-kai/public/scripts/hamburger.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/js/hamburger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/aboutme.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/aboutme.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/experiences.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/pages/aboutme.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/pages/experience.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/pages/projects.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/portfolio.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-kai/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,13 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/portfolio-kai/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -189,6 +196,7 @@
       <recent name="C:\Users\Kai\Documents\porftolio\portfolio-kai\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kai\Documents\porftolio\portfolio-kai\resources\js" />
       <recent name="C:\Users\Kai\Documents\porftolio\portfolio-kai\resources\views" />
       <recent name="C:\Users\Kai\Documents\porftolio\portfolio-kai\public\images" />
     </key>
@@ -215,7 +223,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745586277892</updated>
-      <workItem from="1745586279184" duration="39618000" />
+      <workItem from="1745586279184" duration="72001000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -241,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745919996215</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[US-1] Created new pages and worked on a contact button">
+      <option name="closed" value="true" />
+      <created>1746024358219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746024358219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +267,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="[US-1] Layout en Start homepage. Did some front-end work." />
     <MESSAGE value="[US-1] Reworked the header and made the main a lil better" />
-    <option name="LAST_COMMIT_MESSAGE" value="[US-1] Reworked the header and made the main a lil better" />
+    <MESSAGE value="[US-1] Created new pages and worked on a contact button" />
+    <option name="LAST_COMMIT_MESSAGE" value="[US-1] Created new pages and worked on a contact button" />
   </component>
 </project>
