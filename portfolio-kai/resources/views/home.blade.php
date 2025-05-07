@@ -5,10 +5,9 @@
 @section('title', 'Home')
 
 @section('content')
-    <div class="flex flex-col h-[calc(100vh-101px)]">
-        <section class="place-items-center">
-            <div class="hidden-animation transition-all  duration-500 min-w-[80%] px-4 py-35">
-                <div class="flex md:flex-row flex-col justify-between items-center max-w-[75%] mx-auto">
+    <div id="container" class="flex flex-col items-center justify-center w-full">
+        <section id="home" class="flex h-[90vh] min-w-[80%]">
+                <div class="flex md:flex-row flex-col justify-between items-center max-w-[75%]">
                     <div class="flex flex-col gap-2">
                         <h1 class="text-5xl hover:text-6xl transition-all duration-300 font-bold">
                             Hi,
@@ -23,7 +22,7 @@
                         <a class="underline ">
                             Read more
                         </a>
-                        <div class="flex space-x-4">
+                        <div class="flex space-x-4 items-end">
                             <a href="" class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 96" class=" transition-all duration-600 ease-in-out group-hover:text-white z-10">
                                     <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
@@ -44,7 +43,70 @@
                         <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                     </div>
                 </div>
+        </section>
+        <section id="aboutMe" class="flex md:flex-row flex-col h-[100vh] md:max-w-[80%]  items-center overflow-x-hidden">
+            <div class="flex flex-col gap-4 max-w max-w-[50%]">
+                <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                <hr class="border-2 border-neutral-600">
+                <p>
+                    Hello, my name is Kai Da Silva. I am a 20-year-old software developer from 's-Hertogenbosch, Netherlands.
+                </p>
+                <p>
+                    What excites me most about software development is the constant evolution of technology, the innovative advancements, and the endless opportunities to learn something new.
+                </p>
+                <p>
+                    Outside of work, I enjoy discovering new music and artists, playing video games, and spending quality time with my friends. I also have a passion for fitness and enjoy going to the gym.
+                </p>
             </div>
+            <div class="flex flex-col min-w-[50%] justify-end items-end gap-8">
+                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
+                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                    <p>
+                        Laravel
+                    </p>
+                </div>
+                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
+                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                    <p>
+                        TailwindCSS
+                    </p>
+                </div>
+                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
+                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                    <p>
+                        C#
+                    </p>
+                </div>
+                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
+                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                    <p>
+                        HTML
+                    </p>
+                </div>
+                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
+                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                    <p>
+                        CSS
+                    </p>
+                </div>
+                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
+                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                    <p>
+                        JavaScript
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="Projects" class="flex flex-col h-[100vh] md:max-w-[80%]  items-center overflow-x-hidden">
+            <h2 class="text-5xl font-bold">
+                Projects
+            </h2>
+            <div class="flex flex-col">
+
+            </div>
+
         </section>
     </div>
 @endsection
