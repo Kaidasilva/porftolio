@@ -7,8 +7,6 @@
     <title>Portfolio - @yield('title')</title>
     <link rel="icon" href={{asset("images/taskbar-logo.png")}} type="image/x-icon">
     <link rel="stylesheet" href={{asset("styles/animation.css")}}>
-    <script src={{asset("scripts/animation-observer.js")}} defer></script>
-    <script src={{asset("scripts/hamburger.js")}} defer></script>
     @vite('resources/js/app.js')
 </head>
 <body>

@@ -6,11 +6,11 @@
 
 @section('content')
     <div class=" flex items-center justify-center w-full">
-        <section class="md:max-w-[90%] max-w-[90%]  flex flex-row md:flex-row gap-8">
-            <div class="flex ">
-                <img alt="logo" class=" max-w-full" src={{asset("images/placeholder.svg.png")}}>
+        <section class="md:max-w-[90%] max-w-[90%] items-center flex flex-col md:flex-row gap-8">
+            <div class="flex">
+                <img alt="logo" class=" w-[300px] h-[500px]" src={{asset("images/placeholder.svg.png")}}>
             </div>
-            <div class="flex flex-col gap-4 max-w-[50%]  p-8 rounded-lg">
+            <div class="flex flex-col gap-4 md:max-w-[50%] p-8 rounded-lg">
 
                 <h1 class="font-bold text-4xl">
                     About Kai Da Silva
