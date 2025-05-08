@@ -44,69 +44,81 @@
                     </div>
                 </div>
         </section>
-        <section id="aboutMe" class="flex md:flex-row flex-col h-[100vh] md:max-w-[80%]  items-center overflow-x-hidden">
-            <div class="flex flex-col gap-4 max-w max-w-[50%]">
-                <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                <hr class="border-2 border-neutral-600">
-                <p>
-                    Hello, my name is Kai Da Silva. I am a 20-year-old software developer from 's-Hertogenbosch, Netherlands.
-                </p>
-                <p>
-                    What excites me most about software development is the constant evolution of technology, the innovative advancements, and the endless opportunities to learn something new.
-                </p>
-                <p>
-                    Outside of work, I enjoy discovering new music and artists, playing video games, and spending quality time with my friends. I also have a passion for fitness and enjoy going to the gym.
-                </p>
-            </div>
-            <div class="flex flex-col min-w-[50%] justify-end items-end gap-8">
-                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
-                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+        <section id="aboutMe" class="flex flex-col h-[100vh] md:max-w-[80%] items-center">
+            <h2 class="text-5xl font-bold">
+                About Me
+            </h2>
+            <div class="flex flex-row items-center">
+                <div class="flex flex-col gap-4 max-w max-w-[50%]">
+                    <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                    <hr class="border-2 border-neutral-600">
                     <p>
-                        Laravel
+                        Hello, my name is Kai Da Silva. I am a 20-year-old software developer from 's-Hertogenbosch, Netherlands.
+                    </p>
+                    <p>
+                        What excites me most about software development is the constant evolution of technology, the innovative advancements, and the endless opportunities to learn something new.
+                    </p>
+                    <p>
+                        Outside of work, I enjoy discovering new music and artists, playing video games, and spending quality time with my friends. I also have a passion for fitness and enjoy going to the gym.
                     </p>
                 </div>
-                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
-                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                    <p>
-                        TailwindCSS
-                    </p>
+                <div class="grid grid-cols-2 min-w-[50%] gap-8">
+                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>Laravel</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>TailwindCSS</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>C#</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>HTML</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>CSS</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>JavaScript</p>
+                    </div>
                 </div>
-                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
-                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                    <p>
-                        C#
-                    </p>
-                </div>
-                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
-                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                    <p>
-                        HTML
-                    </p>
-                </div>
-                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
-                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                    <p>
-                        CSS
-                    </p>
-                </div>
-                <div class=" flex flex-col items-center justify-center w-[20%] gap-2 border-2 rounded-xl p-2">
-                    <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                    <p>
-                        JavaScript
-                    </p>
-                </div>
-
             </div>
 
         </section>
-        <section id="Projects" class="flex flex-col h-[100vh] md:max-w-[80%]  items-center overflow-x-hidden">
+        <section id="Projects" class="flex flex-col h-[70vh] md:max-w-[80%]  items-center overflow-x-hidden gap-8">
             <h2 class="text-5xl font-bold">
                 Projects
             </h2>
-            <div class="flex flex-col">
-
+            <div class="flex flex-row w-full gap-8">
+                <img alt="logo" class="w-100 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                <div>
+                    <h3 class="text-3xl font-bold">
+                        Project 1
+                    </h3>
+                    <p>
+                        This is a description of project 1. It is a web application that helps users manage their tasks and projects more effectively.
+                    </p>
+                    <div class="flex place-items-center gap-4">
+                        <a href="" class="relative  font-bold py-2 px-4  overflow-hidden group border-b-2 border- transition-all duration-500 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-[#A8543C] before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out hover:text-white">
+                            <span class="relative z-10">Inschrijven</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-
+            <div class=" flex flex-row gap-8">
+                <button class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"  class=" transition-all duration-600 ease-in-out group-hover:text-white z-10"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9991 19L9.83911 14C9.56672 13.7429 9.34974 13.433 9.20142 13.0891C9.0531 12.7452 8.97656 12.3745 8.97656 12C8.97656 11.6255 9.0531 11.2548 9.20142 10.9109C9.34974 10.567 9.56672 10.2571 9.83911 10L14.9991 5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
+                <button class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"  class=" transition-all duration-600 ease-in-out group-hover:text-white z-10"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </button>
+            </div>
         </section>
     </div>
 @endsection

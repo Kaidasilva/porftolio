@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b5d2cea-3a85-4dfd-9c2e-deeb0bada599" name="Changes" comment="[US-1] Commit for if i wanna roll back new restart.">
+    <list default="true" id="7b5d2cea-3a85-4dfd-9c2e-deeb0bada599" name="Changes" comment="[#2] New start one page webpage. Added About me, started project section and will start with footer now. Both the Home section and About section still need work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/layouts/layout.blade.php" afterDir="false" />
@@ -218,7 +218,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745586277892</updated>
-      <workItem from="1745586279184" duration="87625000" />
+      <workItem from="1745586279184" duration="91319000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -268,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746622902551</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[#2] New start one page webpage. Added About me, started project section and will start with footer now. Both the Home section and About section still need work">
+      <option name="closed" value="true" />
+      <created>1746626680991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746626680991</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +289,7 @@
     <MESSAGE value="[US-1] Created new pages and worked on a contact button" />
     <MESSAGE value="[US-1] Big updates. About me page and Portfolio page" />
     <MESSAGE value="[US-1] Commit for if i wanna roll back new restart." />
-    <option name="LAST_COMMIT_MESSAGE" value="[US-1] Commit for if i wanna roll back new restart." />
+    <MESSAGE value="[#2] New start one page webpage. Added About me, started project section and will start with footer now. Both the Home section and About section still need work" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#2] New start one page webpage. Added About me, started project section and will start with footer now. Both the Home section and About section still need work" />
   </component>
 </project>
