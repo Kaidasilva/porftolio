@@ -44,7 +44,7 @@
                     </div>
                 </div>
         </section>
-        <section id="aboutMe" class="flex flex-col h-[100vh] md:max-w-[80%] items-center">
+        <section id="aboutMe" class="flex flex-col h-[100vh] md:max-w-[80%] items-center gap-8">
             <h2 class="text-5xl font-bold">
                 About Me
             </h2>
@@ -62,30 +62,46 @@
                         Outside of work, I enjoy discovering new music and artists, playing video games, and spending quality time with my friends. I also have a passion for fitness and enjoy going to the gym.
                     </p>
                 </div>
-                <div class="grid grid-cols-2 min-w-[50%] gap-8">
-                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
-                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                        <p>Laravel</p>
+                <div class="flex flex-row min-w-[50%] justify-end h-full gap-12">
+                    <div class="flex flex-col w-[50%] justify-center items-end gap-12">
+                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                            <p>
+                                Laravel
+                            </p>
+                        </div>
+                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                            <p>
+                                TailwindCSS
+                            </p>
+                        </div>
+                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                            <p>
+                                C#
+                            </p>
+                        </div>
                     </div>
-                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
-                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                        <p>TailwindCSS</p>
-                    </div>
-                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
-                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                        <p>C#</p>
-                    </div>
-                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
-                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                        <p>HTML</p>
-                    </div>
-                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
-                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                        <p>CSS</p>
-                    </div>
-                    <div class="flex flex-col items-center justify-center w-[30%] gap-2 border-2 rounded-xl p-2">
-                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                        <p>JavaScript</p>
+                    <div class="flex flex-col w-[50%] justify-center gap-12">
+                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                            <p>
+                                HTML
+                            </p>
+                        </div>
+                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                            <p>
+                                CSS
+                            </p>
+                        </div>
+                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                            <p>
+                                JavaScript
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
