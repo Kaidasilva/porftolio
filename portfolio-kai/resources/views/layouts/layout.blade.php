@@ -60,7 +60,7 @@
     @yield('content')
 </main>
 
-<footer class="flex flex-col justify-center items-center h-[20vh] gap-4 bg-neutral-200 ">
+<footer class="flex flex-col justify-center items-center md:h-[20vh] gap-4 bg-neutral-200 ">
     <div class="flex space-x-4 items-end">
         <a href="" class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 96" class=" transition-all duration-600 ease-in-out group-hover:text-white z-10">

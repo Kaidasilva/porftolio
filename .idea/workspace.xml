@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b5d2cea-3a85-4dfd-9c2e-deeb0bada599" name="Changes" comment="[#2] Moet updaten">
-      <change afterPath="$PROJECT_DIR$/portfolio-kai/resources/css/animations.css" afterDir="false" />
+    <list default="true" id="7b5d2cea-3a85-4dfd-9c2e-deeb0bada599" name="Changes" comment="[#2] Button animation work now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/js/animation-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/js/animation-observer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/css/animations.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/aboutme.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/modals/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/modals/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/portfolio.blade.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +222,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745586277892</updated>
       <workItem from="1745586279184" duration="93591000" />
-      <workItem from="1746692352842" duration="24204000" />
+      <workItem from="1746692352842" duration="37130000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -301,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746692278464</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[#2] Button animation work now">
+      <option name="closed" value="true" />
+      <created>1746783165611</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746783165611</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +320,8 @@
     <MESSAGE value="[#2] New start one page webpage. Added About me, started project section and will start with footer now. Both the Home section and About section still need work" />
     <MESSAGE value="[#2] Worked the Projects further out" />
     <MESSAGE value="[#2] Moet updaten" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#2] Moet updaten" />
+    <MESSAGE value="[#2] Button animation work now" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#2] Button animation work now" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

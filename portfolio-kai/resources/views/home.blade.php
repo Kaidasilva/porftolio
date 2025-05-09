@@ -6,9 +6,10 @@
 
 @section('content')
     <div id="container" class="flex flex-col items-center justify-center w-full">
-        <section id="Home" class="flex h-[90vh] min-w-[75%] scroll-mt-[10vh]">
-        <div class="flex md:flex-row flex-col justify-between items-center min-w-full">
-                    <div class="flex flex-col gap-2">
+        <canvas id="canvas" class="absolute top-0 left-0 w-full h-full z-0"></canvas>
+        <section id="Home" class="flex h-[90vh] min-w-[75%] scroll-mt-[10vh] z-1">
+                <div class="flex md:flex-row flex-col justify-between items-center min-w-full">
+                    <div class="flex flex-col gap-2 z-2 bg-neutral-100 rounded-xl p-8">
                         <h1 class="text-5xl hover:text-6xl transition-all duration-300 font-bold">
                             Hi,
                         </h1>
@@ -43,11 +44,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="flex items-end">
-                        <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <div class="flex items-end">
+                            <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        </div>
                     </div>
-                </div>
-        </section>
+            </section>
         <section id="aboutMe" class="flex flex-col md:h-[90vh] max-w-[80%] items-center gap-8 scroll-mt-[10vh] ">
             <h2 class="text-5xl font-bold">
                 About Me
@@ -66,38 +67,38 @@
                         Outside of work, I enjoy discovering new music and artists, playing video games, and spending quality time with my friends. I also have a passion for fitness and enjoy going to the gym.
                     </p>
                 </div>
-                <div class="grid grid-cols-2 min-w-[50%] justify-items-center md:justify-items-end h-full gap-x-0 gap-y-12">
-                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                <div class="flex flex-col min-w-[50%] justify-center items-end h-full gap-x-0 gap-y-4">
+                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             Laravel
                         </p>
                     </div>
-                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             TailwindCSS
                         </p>
                     </div>
-                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             C#
                         </p>
                     </div>
-                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             HTML
                         </p>
                     </div>
-                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             CSS
                         </p>
                     </div>
-                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             JavaScript
