@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     <title>Portfolio - @yield('title')</title>
-    <link rel="icon" href={{asset("images/taskbar-logo.png")}} type="image/x-icon">
-    <link rel="stylesheet" href={{asset("styles/animation.css")}}>
     @vite('resources/js/app.js')
 </head>
 <body>
 <header class="flex h-[10vh] z-40 top-0 sticky justify-center place-items-center bg-neutral-100">
     <nav class="min-w-full  py-4 px-8 md:py-4 md:px-24">
         <div class="md:hidden flex min-w-[90%] items-center justify-between">
-            <a href="/">
+            <a href="#Home" class="font-bold text-2xl">
                 Kai Da Silva
             </a>
             <button id="hamburger-btn" class="flex flex-col space-y-1">
@@ -43,15 +41,15 @@
 
         <div class="w-full max-md:hidden">
             <div class="flex justify-between items-center">
-                <p class="font-bold text-2xl">
+                <a href="#Home" class="font-bold text-2xl">
                     Kai Da Silva
-                </p>
+                </a>
                 <div class="min-w-max pl-12  font-bold">
+                    <a class=" relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
+                       href="#aboutMe">About me</a>
                     <a class="relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
-                       href="">About me</a>
-                    <a class="relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
-                       href="">Portfolio</a>
-                    <a class="relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
+                       href="#Projects">Projects</a>
+                    <a class=" relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
                        href="">Resume</a>
                 </div>
             </div>
@@ -76,7 +74,11 @@
             </svg>
         </a>
         <a href="mailto:kai_dasilva@hotmail.com" class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
-            <svg viewBox="0 -3.5 32 32" version="1.1" width="20" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>mail</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-414.000000, -261.000000)" fill="#000000"> <path d="M430,275.916 L426.684,273.167 L415.115,285.01 L444.591,285.01 L433.235,273.147 L430,275.916 L430,275.916 Z M434.89,271.89 L445.892,283.329 C445.955,283.107 446,282.877 446,282.634 L446,262.862 L434.89,271.89 L434.89,271.89 Z M414,262.816 L414,282.634 C414,282.877 414.045,283.107 414.108,283.329 L425.147,271.927 L414,262.816 L414,262.816 Z M445,261 L415,261 L430,273.019 L445,261 L445,261 Z" id="mail" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>
+            <svg viewBox="0 -3.5 32 32" version="1.1" width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="transition-all duration-600 ease-in-out group-hover:text-white z-10">
+                <g transform="translate(-414.000000, -261.000000)">
+                    <path d="M430,275.916 L426.684,273.167 L415.115,285.01 L444.591,285.01 L433.235,273.147 L430,275.916 Z M434.89,271.89 L445.892,283.329 C445.955,283.107 446,282.877 446,282.634 L446,262.862 L434.89,271.89 Z M414,262.816 L414,282.634 C414,282.877 414.045,283.107 414.108,283.329 L425.147,271.927 L414,262.816 Z M445,261 L415,261 L430,273.019 L445,261 Z" />
+                </g>
+            </svg>
         </a>
     </div>
     <p>
@@ -89,5 +91,9 @@
 {{--    </a>--}}
 {{--</div>--}}
 </body>
+<script>
+
+</script>
+
 </html>
 

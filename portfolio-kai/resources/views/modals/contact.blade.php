@@ -10,10 +10,8 @@
             Phone: 0625457976
         </p>
         <p>
-            LinkedIn: <a></a>
         </p>
         <p>
-            Github: <a></a>
         </p>
 
     </div>

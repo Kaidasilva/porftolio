@@ -6,8 +6,8 @@
 
 @section('content')
     <div id="container" class="flex flex-col items-center justify-center w-full">
-        <section id="home" class="flex h-[90vh] min-w-[80%]">
-                <div class="flex md:flex-row flex-col justify-between items-center max-w-[75%]">
+        <section id="Home" class="flex h-[90vh] min-w-[75%] scroll-mt-[10vh]">
+        <div class="flex md:flex-row flex-col justify-between items-center min-w-full">
                     <div class="flex flex-col gap-2">
                         <h1 class="text-5xl hover:text-6xl transition-all duration-300 font-bold">
                             Hi,
@@ -19,7 +19,7 @@
                             Software Developer
                         </p>
                         <hr class="border-2 border-neutral-600 ">
-                        <a class="underline ">
+                        <a href="#aboutMe" class="text-blue-600 underline ">
                             Read more
                         </a>
                         <div class="flex space-x-4 items-end">
@@ -35,21 +35,25 @@
                                 </svg>
                             </a>
                             <a href="mailto:kai_dasilva@hotmail.com" class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
-                                <svg viewBox="0 -3.5 32 32" version="1.1" width="20" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>mail</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-414.000000, -261.000000)" fill="#000000"> <path d="M430,275.916 L426.684,273.167 L415.115,285.01 L444.591,285.01 L433.235,273.147 L430,275.916 L430,275.916 Z M434.89,271.89 L445.892,283.329 C445.955,283.107 446,282.877 446,282.634 L446,262.862 L434.89,271.89 L434.89,271.89 Z M414,262.816 L414,282.634 C414,282.877 414.045,283.107 414.108,283.329 L425.147,271.927 L414,262.816 L414,262.816 Z M445,261 L415,261 L430,273.019 L445,261 L445,261 Z" id="mail" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>
+                                <svg viewBox="0 -3.5 32 32" version="1.1" width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="transition-all duration-600 ease-in-out group-hover:text-white z-10">
+                                    <g transform="translate(-414.000000, -261.000000)">
+                                        <path d="M430,275.916 L426.684,273.167 L415.115,285.01 L444.591,285.01 L433.235,273.147 L430,275.916 Z M434.89,271.89 L445.892,283.329 C445.955,283.107 446,282.877 446,282.634 L446,262.862 L434.89,271.89 Z M414,262.816 L414,282.634 C414,282.877 414.045,283.107 414.108,283.329 L425.147,271.927 L414,262.816 Z M445,261 L415,261 L430,273.019 L445,261 Z" />
+                                    </g>
+                                </svg>
                             </a>
                         </div>
                     </div>
-                    <div class="flex ">
+                    <div class="flex items-end">
                         <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                     </div>
                 </div>
         </section>
-        <section id="aboutMe" class="flex flex-col h-[100vh] md:max-w-[80%] items-center gap-8">
+        <section id="aboutMe" class="flex flex-col md:h-[90vh] max-w-[80%] items-center gap-8 scroll-mt-[10vh] ">
             <h2 class="text-5xl font-bold">
                 About Me
             </h2>
-            <div class="flex flex-row items-center">
-                <div class="flex flex-col gap-4 max-w max-w-[50%]">
+            <div class="flex md:flex-row flex-col items-center">
+                <div class="flex flex-col gap-4 max-w md:max-w-[50%]">
                     <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                     <hr class="border-2 border-neutral-600">
                     <p>
@@ -62,77 +66,101 @@
                         Outside of work, I enjoy discovering new music and artists, playing video games, and spending quality time with my friends. I also have a passion for fitness and enjoy going to the gym.
                     </p>
                 </div>
-                <div class="flex flex-row min-w-[50%] justify-end h-full gap-12">
-                    <div class="flex flex-col w-[50%] justify-center items-end gap-12">
-                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
-                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                            <p>
-                                Laravel
-                            </p>
-                        </div>
-                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
-                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                            <p>
-                                TailwindCSS
-                            </p>
-                        </div>
-                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
-                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                            <p>
-                                C#
-                            </p>
-                        </div>
+                <div class="grid grid-cols-2 min-w-[50%] justify-items-center md:justify-items-end h-full gap-x-0 gap-y-12">
+                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>
+                            Laravel
+                        </p>
                     </div>
-                    <div class="flex flex-col w-[50%] justify-center gap-12">
-                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
-                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                            <p>
-                                HTML
-                            </p>
-                        </div>
-                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
-                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                            <p>
-                                CSS
-                            </p>
-                        </div>
-                        <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
-                            <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                            <p>
-                                JavaScript
-                            </p>
-                        </div>
+                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>
+                            TailwindCSS
+                        </p>
+                    </div>
+                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>
+                            C#
+                        </p>
+                    </div>
+                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>
+                            HTML
+                        </p>
+                    </div>
+                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>
+                            CSS
+                        </p>
+                    </div>
+                    <div class=" flex flex-col items-center justify-center w-[40%] gap-2 border-2 rounded-xl p-2">
+                        <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                        <p>
+                            JavaScript
+                        </p>
                     </div>
                 </div>
             </div>
 
         </section>
-        <section id="Projects" class="flex flex-col h-[70vh] md:max-w-[80%]  items-center overflow-x-hidden gap-8">
+        <section id="Projects" class="flex flex-col md:h-[70vh] max-w-[80%]  items-center gap-8">
             <h2 class="text-5xl font-bold">
                 Projects
             </h2>
-            <div class="flex flex-row w-full gap-8">
-                <img alt="logo" class="w-100 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                <div>
-                    <h3 class="text-3xl font-bold">
-                        Project 1
-                    </h3>
-                    <p>
-                        This is a description of project 1. It is a web application that helps users manage their tasks and projects more effectively.
-                    </p>
-                    <div class="flex place-items-center gap-4">
-                        <a href="" class="relative  font-bold py-2 px-4  overflow-hidden group border-b-2 border- transition-all duration-500 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-[#A8543C] before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out hover:text-white">
-                            <span class="relative z-10">Inschrijven</span>
-                        </a>
+            <div id="projects-scroll" class="w-full overflow-x-scroll snap-x snap-mandatory scroll-smooth flex gap-8">
+                <div class="snap-start min-w-full flex md:flex-row flex-col gap-8">
+                    <img alt="logo" class="md:w-[30%] h-auto w-full" src="{{ asset('images/placeholder.svg.png') }}">
+                    <div class="flex flex-col justify-start">
+                        <h3 class="text-3xl font-bold">Project 1</h3>
+                        <p>This is a description of project 1. It is a web application that helps users manage their tasks and projects more effectively.</p>
+                        <div class="flex place-items-center gap-4 mt-4">
+                            <a href="#" class="relative font-bold py-2 px-4 overflow-hidden group border-b-2 border-neutral-400 transition-all duration-500 ease-in-out hover:text-white before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out">
+                                <span class="relative z-10">More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="snap-start min-w-full flex md:flex-row flex-col gap-8">
+                    <img alt="logo" class="md:w-[30%] h-auto w-full" src="{{ asset('images/placeholder.svg.png') }}">
+                    <div class="flex flex-col justify-start">
+                        <h3 class="text-3xl font-bold">Project 2</h3>
+                        <p>This is a description of project 2. It is a web application that helps users manage their tasks and projects more effectively.</p>
+                        <div class="flex place-items-center gap-4 mt-4">
+                            <a href="#" class="relative font-bold py-2 px-4 overflow-hidden group border-b-2 border-neutral-400 transition-all duration-500 ease-in-out hover:text-white before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out">
+                                <span class="relative z-10">More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="snap-start min-w-full flex md:flex-row flex-col gap-8">
+                    <img alt="logo" class="md:w-[30%] h-auto w-full" src="{{ asset('images/placeholder.svg.png') }}">
+                    <div class="flex flex-col justify-start">
+                        <h3 class="text-3xl font-bold">Project 3</h3>
+                        <p>This is a description of project 3. It is a web application that helps users manage their tasks and projects more effectively.</p>
+                        <div class="flex place-items-center gap-4 mt-4">
+                            <a href="#" class="relative font-bold py-2 px-4 overflow-hidden group border-b-2 border-neutral-400 transition-all duration-500 ease-in-out hover:text-white before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out">
+                                <span class="relative z-10">More</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
             <div class=" flex flex-row gap-8">
-                <button class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"  class=" transition-all duration-600 ease-in-out group-hover:text-white z-10"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9991 19L9.83911 14C9.56672 13.7429 9.34974 13.433 9.20142 13.0891C9.0531 12.7452 8.97656 12.3745 8.97656 12C8.97656 11.6255 9.0531 11.2548 9.20142 10.9109C9.34974 10.567 9.56672 10.2571 9.83911 10L14.9991 5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                <button id="scroll-left" class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all duration-600 ease-in-out group-hover:text-white z-10">
+                        <path d="M14.9991 19L9.83911 14C9.56672 13.7429 9.34974 13.433 9.20142 13.0891C9.0531 12.7452 8.97656 12.3745 8.97656 12C8.97656 11.6255 9.0531 11.2548 9.20142 10.9109C9.34974 10.567 9.56672 10.2571 9.83911 10L14.9991 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </button>
-                <button class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"  class=" transition-all duration-600 ease-in-out group-hover:text-white z-10"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                <button id="scroll-right" class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all duration-600 ease-in-out group-hover:text-white z-10">
+                        <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </button>
             </div>
         </section>
