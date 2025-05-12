@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b5d2cea-3a85-4dfd-9c2e-deeb0bada599" name="Changes" comment="[#2] coole dot connect">
-      <change afterPath="$PROJECT_DIR$/portfolio-kai/public/images/data-platgeslagen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/js/animation-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/js/animation-observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/js/main.js" afterDir="false" />
+    <list default="true" id="7b5d2cea-3a85-4dfd-9c2e-deeb0bada599" name="Changes" comment="[#2] Animaties">
       <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-kai/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-kai/resources/views/layouts/layout.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +219,7 @@
       <updated>1745586277892</updated>
       <workItem from="1745586279184" duration="93591000" />
       <workItem from="1746692352842" duration="37155000" />
-      <workItem from="1747033048956" duration="6258000" />
+      <workItem from="1747033048956" duration="6560000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -314,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746799231100</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[#2] Animaties">
+      <option name="closed" value="true" />
+      <created>1747042679803</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747042679803</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +335,8 @@
     <MESSAGE value="[#2] Moet updaten" />
     <MESSAGE value="[#2] Button animation work now" />
     <MESSAGE value="[#2] coole dot connect" />
-    <option name="LAST_COMMIT_MESSAGE" value="[#2] coole dot connect" />
+    <MESSAGE value="[#2] Animaties" />
+    <option name="LAST_COMMIT_MESSAGE" value="[#2] Animaties" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

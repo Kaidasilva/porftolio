@@ -68,7 +68,7 @@
                         Outside of work, I enjoy discovering new music and artists, playing video games, and spending quality time with my friends. I also have a passion for fitness and enjoy going to the gym.
                     </p>
                 </div>
-                <div class="grid md:grid-cols-1 grid-cols-2 min-w-[50%] justify-items-center items-end h-full md:gap-x-0 gap-x-4 gap-y-4">
+                <div class="grid md:grid-cols-1 grid-cols-2 min-w-[50%] md:justify-items-end justify-items-center items-end h-full md:gap-x-0 gap-x-4 gap-y-4">
                     <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
