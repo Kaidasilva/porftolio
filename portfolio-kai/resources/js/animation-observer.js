@@ -1,16 +1,19 @@
+
 document.addEventListener("DOMContentLoaded", () => {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("fade-in-visible");
-                observer.unobserve(entry.target); // optie: animatie maar één keer
+    const detector = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting)
+            {
+                entry.target.classList.add('show-animation');
+            }
+            else
+            {
+                entry.target.classList.remove('show-animation');
             }
         });
-    }, {
-        threshold: 0.1
     });
 
-    document.querySelectorAll('.fade-in').forEach(el => {
-        observer.observe(el);
-    });
+    const animationObjects = document.querySelectorAll('.hidden-animation');
+    animationObjects.forEach((el) => detector.observe(el));
 });
+

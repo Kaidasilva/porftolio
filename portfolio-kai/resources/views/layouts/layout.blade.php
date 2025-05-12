@@ -11,7 +11,7 @@
 <header class="flex h-[10vh] z-40 top-0 sticky justify-center place-items-center bg-neutral-100">
     <nav class="min-w-full  py-4 px-8 md:py-4 md:px-24">
         <div class="md:hidden flex min-w-[90%] items-center justify-between">
-            <a href="#Home" class="font-bold text-2xl">
+            <a href="#Home" class="font-bold  text-2xl">
                 Kai Da Silva
             </a>
             <button id="hamburger-btn" class="flex flex-col space-y-1">

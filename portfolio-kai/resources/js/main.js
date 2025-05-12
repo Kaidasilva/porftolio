@@ -4,7 +4,7 @@ const cardWidth = container.offsetWidth;
 let index = 0;
 
 const scrollToSlide = (i) => {
-    index = (i + cards.length) % cards.length; // wrap-around
+    index = (i + cards.length) % cards.length;
     container.scrollTo({
         left: index * cardWidth,
         behavior: 'smooth'

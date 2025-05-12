@@ -10,7 +10,7 @@
         <section id="Home" class="flex h-[90vh] min-w-[75%] scroll-mt-[10vh] z-1">
                 <div class="flex md:flex-row flex-col justify-between items-center min-w-full">
                     <div class="flex flex-col gap-2 z-2 bg-neutral-100 rounded-xl p-8">
-                        <h1 class="text-5xl hover:text-6xl transition-all duration-300 font-bold">
+                        <h1 class="text-5xl hover:text-6xl transition-all duration-300 font-bold hidden-animation ">
                             Hi,
                         </h1>
                         <h2 class="text-4xl hover:text-5xl transition-all duration-300 font-bold">
@@ -44,11 +44,12 @@
                             </a>
                         </div>
                     </div>
-                        <div class="flex items-end">
-                            <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
-                        </div>
+                    <div class="flex items-end">
+                        <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                     </div>
+                </div>
             </section>
+
         <section id="aboutMe" class="flex flex-col md:h-[90vh] max-w-[80%] items-center gap-8 scroll-mt-[10vh] ">
             <h2 class="text-5xl font-bold">
                 About Me
@@ -67,38 +68,38 @@
                         Outside of work, I enjoy discovering new music and artists, playing video games, and spending quality time with my friends. I also have a passion for fitness and enjoy going to the gym.
                     </p>
                 </div>
-                <div class="flex flex-col min-w-[50%] justify-center items-end h-full gap-x-0 gap-y-4">
-                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
+                <div class="grid md:grid-cols-1 grid-cols-2 min-w-[50%] justify-items-center items-end h-full md:gap-x-0 gap-x-4 gap-y-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             Laravel
                         </p>
                     </div>
-                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
-                            TailwindCSS
+                            Tailwind
                         </p>
                     </div>
-                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             C#
                         </p>
                     </div>
-                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             HTML
                         </p>
                     </div>
-                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             CSS
                         </p>
                     </div>
-                    <div class=" flex flex-row items-center justify-start w-[25%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             JavaScript
@@ -106,27 +107,27 @@
                     </div>
                 </div>
             </div>
-
         </section>
+
         <section id="Projects" class="flex flex-col md:h-[70vh] max-w-[80%]  items-center gap-8">
             <h2 class="text-5xl font-bold">
                 Projects
             </h2>
             <div id="projects-scroll" class="w-full overflow-x-scroll snap-x snap-mandatory scroll-smooth flex gap-8">
-                <div class="snap-start min-w-full flex md:flex-row flex-col gap-8">
-                    <img alt="logo" class="md:w-[30%] h-auto w-full" src="{{ asset('images/placeholder.svg.png') }}">
+                <div class="snap-start min-w-full flex md:flex-row h-full flex-col gap-8 flex-grow-0">
+                    <img alt="logo" class="w-auto h-[90%]" src="{{ asset('images/data-platgeslagen.png') }}">
                     <div class="flex flex-col justify-start">
-                        <h3 class="text-3xl font-bold">Project 1</h3>
-                        <p>This is a description of project 1. It is a web application that helps users manage their tasks and projects more effectively.</p>
+                        <h3 class="text-3xl font-bold">Data-platgeslagen</h3>
+                        <p>This is a website created for an AI event during my internship at Divtag. I developed this platform to provide visitors with detailed information about the event and allow them to easily register for participation. The website features a user-friendly design and ensures a seamless experience for users interested in learning more about the event or signing up. </p>
                         <div class="flex place-items-center gap-4 mt-4">
-                            <a href="#" class="relative font-bold py-2 px-4 overflow-hidden group border-b-2 border-neutral-400 transition-all duration-500 ease-in-out hover:text-white before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out">
+                            <a href="https://data-platgeslagen.nl/" class="relative font-bold py-2 px-4 overflow-hidden group border-b-2 border-neutral-400 transition-all duration-500 ease-in-out hover:text-white before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out">
                                 <span class="relative z-10">More</span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="snap-start min-w-full flex md:flex-row flex-col gap-8">
-                    <img alt="logo" class="md:w-[30%] h-auto w-full" src="{{ asset('images/placeholder.svg.png') }}">
+                <div class="snap-start min-w-full flex md:flex-row flex-col gap-8 flex-grow-0">
+                    <img alt="logo" class="w-auto h-[90%]" src="{{ asset('images/placeholder.svg.png') }}">
                     <div class="flex flex-col justify-start">
                         <h3 class="text-3xl font-bold">Project 2</h3>
                         <p>This is a description of project 2. It is a web application that helps users manage their tasks and projects more effectively.</p>
@@ -137,8 +138,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="snap-start min-w-full flex md:flex-row flex-col gap-8">
-                    <img alt="logo" class="md:w-[30%] h-auto w-full" src="{{ asset('images/placeholder.svg.png') }}">
+                <div class="snap-start min-w-full flex md:flex-row flex-col gap-8 flex-grow-0">
+                    <img alt="logo" class="w-auto h-[90%]" src="{{ asset('images/placeholder.svg.png') }}">
                     <div class="flex flex-col justify-start">
                         <h3 class="text-3xl font-bold">Project 3</h3>
                         <p>This is a description of project 3. It is a web application that helps users manage their tasks and projects more effectively.</p>
@@ -150,7 +151,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class=" flex flex-row gap-8">
                 <button id="scroll-left" class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
