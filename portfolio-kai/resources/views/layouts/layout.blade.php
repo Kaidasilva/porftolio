@@ -50,7 +50,7 @@
                     <a class="relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
                        href="#Projects">Projects</a>
                     <a class=" relative group hover:text-neutral-400  transition-all ease-in-out duration-500 ml-5 before:content-[''] before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-0.5 before:bg-gray-400 before:transition-all before:duration-500 before:ease-in-out hover:before:w-full hover:before:left-0"
-                       href="">Resume</a>
+                       href="{{ asset('pdf/resume.pdf') }}" target="_blank">Resume</a>
                 </div>
             </div>
         </div>
@@ -86,9 +86,9 @@
     </p>
 </footer>
 {{--<div class="md:flex hidden place-items-center justify-self-end gap-4">--}}
-{{--    <a href="" class="fixed flex flex-row items-center justify-center bottom-5 right-5 shadow-2xl bg-neutral-400 text-white font-bold p-2  rounded-full overflow-hidden group transition-all duration-500 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-600 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out hover:text-white">--}}
+{{--    <button id="contactBtn" onclick="window.location.href='{{ route('mailer') }}'"  class="fixed flex flex-row items-center justify-center bottom-5 right-5 shadow-2xl bg-neutral-400 text-white font-bold p-2  rounded-full overflow-hidden group transition-all duration-500 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-600 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out hover:text-white">--}}
 {{--        <span class="relative z-10">💬 Contact</span>--}}
-{{--    </a>--}}
+{{--    </button>--}}
 {{--</div>--}}
 </body>
 <script>

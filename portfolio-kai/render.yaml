@@ -1,0 +1,54 @@
+services:
+  - type: web
+    name: laravel-portfolio
+    env: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""    # build gebeurt binnen Dockerfile
+    startCommand: ""    # start gebeurt standaard met Apache
+    autoDeploy: true
+    envVars:
+      - key: APP_NAME
+        value: "Portfolio"
+      - key: APP_ENV
+        value: "production"
+      - key: APP_KEY
+        value: "base64:seE53uvyCe/AsAwEdfL3qc8W/4wrRUsPbdRWVTkdaVI="
+      - key: APP_DEBUG
+        value: "false"
+      - key: APP_URL
+        value: "https://portfolio-1xw3.onrender.com"
+      - key: LOG_CHANNEL
+        value: "stack"
+      - key: LOG_LEVEL
+        value: "error"
+      - key: DB_CONNECTION
+        value: "sqlite"
+      - key: DB_DATABASE
+        value: "/dev/null"
+      - key: CACHE_DRIVER
+        value: "file"
+      - key: QUEUE_CONNECTION
+        value: "sync"
+      - key: SESSION_DRIVER
+        value: "file"
+      - key: SESSION_LIFETIME
+        value: "120"
+      # Mail instellingen optioneel:
+      - key: MAIL_MAILER
+        value: "smtp"
+      - key: MAIL_HOST
+        value: "smtp.mailtrap.io"
+      - key: MAIL_PORT
+        value: "2525"
+      - key: MAIL_USERNAME
+        value: ""
+      - key: MAIL_PASSWORD
+        value: ""
+      - key: MAIL_ENCRYPTION
+        value: ""
+      - key: MAIL_FROM_ADDRESS
+        value: "hello@example.com"
+      - key: MAIL_FROM_NAME
+        value: "Portfolio"

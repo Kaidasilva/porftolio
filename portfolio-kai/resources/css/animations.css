@@ -2,9 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
 #projects-scroll {
     -ms-overflow-style: none;  /* IE en Edge */
     scrollbar-width: none;     /* Firefox */
@@ -19,6 +16,36 @@ html {
     transform: translateY(0);
 }
 
+
+.hidden-animation
+{
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.show-animation
+{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#hamburger-btn.open span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+#hamburger-btn.open span:nth-child(2) {
+    opacity: 0;
+}
+#hamburger-btn.open span:nth-child(3) {
+    transform: translateY(-7.5px) rotate(-45deg);
+}
+
+
+@media (prefers-reduced-motion) {
+    .hidden-animation
+    {
+        transition: none;
+    }
+}
 
 
 @keyframes scrollUp {

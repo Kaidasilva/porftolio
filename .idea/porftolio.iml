@@ -119,6 +119,9 @@
       <excludeFolder url="file://$MODULE_DIR$/portfolio-kai/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/portfolio-kai/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/portfolio-kai/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio-kai/vendor/symfony/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio-kai/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/portfolio-kai/vendor/symfony/mailgun-mailer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -8,22 +8,22 @@
     <div id="container" class="flex flex-col items-center justify-center w-full">
         <canvas id="canvas" class="absolute top-0 left-0 w-full h-full z-0"></canvas>
         <section id="Home" class="flex h-[90vh] min-w-[75%] scroll-mt-[10vh] z-1">
-                <div class="flex md:flex-row flex-col justify-between items-center min-w-full">
+                <div class="flex md:flex-row flex-col justify-between items-center min-w-full hidden-animation transition-all duration-500">
                     <div class="flex flex-col gap-2 z-2 bg-neutral-100 rounded-xl p-8">
-                        <h1 class="text-5xl hover:text-6xl transition-all duration-300 font-bold hidden-animation ">
+                        <h1 class="text-5xl hover:text-6xl transition-all duration-500 font-bold hidden-animation ">
                             Hi,
                         </h1>
-                        <h2 class="text-4xl hover:text-5xl transition-all duration-300 font-bold">
+                        <h2 class="text-4xl hover:text-5xl hidden-animation transition-all duration-600 font-bold">
                             I'm Kai Da Silva
                         </h2>
-                        <p class="text-xl hover:text-2xl transition-all duration-300">
+                        <p class="text-xl hover:text-2xl hidden-animation transition-all duration-700">
                             Software Developer
                         </p>
-                        <hr class="border-2 border-neutral-600 ">
-                        <a href="#aboutMe" class="text-blue-600 underline ">
+                        <hr class="border-2 border-neutral-600 hidden-animation transition-all duration-800">
+                        <a href="#aboutMe" class="text-blue-600 underline hidden-animation transition-all duration-800">
                             Read more
                         </a>
-                        <div class="flex space-x-4 items-end">
+                        <div class="flex space-x-4 items-end hidden-animation transition-all duration-900">
                             <a href="" class="relative flex items-center justify-center w-10 h-10 bg-white rounded-full text-black overflow-hidden group shadow-lg transition-all duration-600 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:scale-0 before:transition-all before:duration-600 before:ease-in-out before:rounded-full hover:text-white hover:before:scale-200">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 98 96" class=" transition-all duration-600 ease-in-out group-hover:text-white z-10">
                                     <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
@@ -44,62 +44,62 @@
                             </a>
                         </div>
                     </div>
-                    <div class="flex items-end">
+                    <div class="flex items-end hidden-animation transition-all duration-800">
                         <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                     </div>
                 </div>
             </section>
 
-        <section id="aboutMe" class="flex flex-col md:h-[90vh] max-w-[80%] items-center gap-8 scroll-mt-[10vh] ">
+        <section id="aboutMe" class="flex flex-col md:h-[90vh] max-w-[80%] items-center gap-8 scroll-mt-[10vh]">
             <h2 class="text-5xl font-bold">
                 About Me
             </h2>
             <div class="flex md:flex-row flex-col items-center">
                 <div class="flex flex-col gap-4 max-w md:max-w-[50%]">
-                    <img alt="logo" class="w-75 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
+                    <img alt="logo" class="w-75 h-auto max-w-full " src={{asset("images/placeholder.svg.png")}}>
                     <hr class="border-2 border-neutral-600">
-                    <p>
+                    <p class="hidden-animation transition-all duration-700">
                         Hello, my name is Kai Da Silva. I am a 20-year-old software developer from 's-Hertogenbosch, Netherlands.
                     </p>
-                    <p>
+                    <p class="hidden-animation transition-all duration-750">
                         What excites me most about software development is the constant evolution of technology, the innovative advancements, and the endless opportunities to learn something new.
                     </p>
-                    <p>
+                    <p class="hidden-animation transition-all duration-800">
                         Outside of work, I enjoy discovering new music and artists, playing video games, and spending quality time with my friends. I also have a passion for fitness and enjoy going to the gym.
                     </p>
                 </div>
-                <div class="grid md:grid-cols-1 grid-cols-2 min-w-[50%] md:justify-items-end justify-items-center items-end h-full md:gap-x-0 gap-x-4 gap-y-4">
-                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
+                <div class="grid md:grid-cols-1 grid-cols-2 min-w-[50%] md:justify-items-end justify-items-center items-end h-full md:gap-x-0 gap-x-4 gap-y-4 ">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4 hidden-animation transition-all duration-700">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             Laravel
                         </p>
                     </div>
-                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4 hidden-animation transition-all duration-750">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             Tailwind
                         </p>
                     </div>
-                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4 hidden-animation transition-all duration-800">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             C#
                         </p>
                     </div>
-                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4 hidden-animation transition-all duration-850">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             HTML
                         </p>
                     </div>
-                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4 hidden-animation transition-all duration-900">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             CSS
                         </p>
                     </div>
-                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4">
+                    <div class=" flex md:flex-row flex-col items-center justify-start md:w-[25%] w-[100%] gap-2 border-2 rounded-xl p-4 hidden-animation transition-all duration-950">
                         <img alt="logo" class="w-10 h-auto max-w-full" src={{asset("images/placeholder.svg.png")}}>
                         <p>
                             JavaScript
@@ -113,11 +113,12 @@
             <h2 class="text-5xl font-bold">
                 Projects
             </h2>
-            <div id="projects-scroll" class="w-full overflow-x-scroll snap-x snap-mandatory scroll-smooth flex gap-8">
+            <div id="projects-scroll" class="w-full overflow-x-scroll snap-x snap-mandatory scroll-smooth flex gap-8 hidden-animation transition-all duration-800">
                 <div class="snap-start min-w-full flex md:flex-row h-full flex-col gap-8 flex-grow-0">
                     <img alt="logo" class="w-auto h-[90%]" src="{{ asset('images/data-platgeslagen.png') }}">
                     <div class="flex flex-col justify-start">
                         <h3 class="text-3xl font-bold">Data-platgeslagen</h3>
+                        <h4 class="text-2xl font-skinny">Divtag & Hittra</h4>
                         <p>This is a website created for an AI event during my internship at Divtag. I developed this platform to provide visitors with detailed information about the event and allow them to easily register for participation. The website features a user-friendly design and ensures a seamless experience for users interested in learning more about the event or signing up. </p>
                         <div class="flex place-items-center gap-4 mt-4">
                             <a href="https://data-platgeslagen.nl/" class="relative font-bold py-2 px-4 overflow-hidden group border-b-2 border-neutral-400 transition-all duration-500 ease-in-out hover:text-white before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out">
@@ -129,20 +130,8 @@
                 <div class="snap-start min-w-full flex md:flex-row flex-col gap-8 flex-grow-0">
                     <img alt="logo" class="w-auto h-[90%]" src="{{ asset('images/placeholder.svg.png') }}">
                     <div class="flex flex-col justify-start">
-                        <h3 class="text-3xl font-bold">Project 2</h3>
-                        <p>This is a description of project 2. It is a web application that helps users manage their tasks and projects more effectively.</p>
-                        <div class="flex place-items-center gap-4 mt-4">
-                            <a href="#" class="relative font-bold py-2 px-4 overflow-hidden group border-b-2 border-neutral-400 transition-all duration-500 ease-in-out hover:text-white before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out">
-                                <span class="relative z-10">More</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="snap-start min-w-full flex md:flex-row flex-col gap-8 flex-grow-0">
-                    <img alt="logo" class="w-auto h-[90%]" src="{{ asset('images/placeholder.svg.png') }}">
-                    <div class="flex flex-col justify-start">
-                        <h3 class="text-3xl font-bold">Project 3</h3>
-                        <p>This is a description of project 3. It is a web application that helps users manage their tasks and projects more effectively.</p>
+                        <h3 class="text-3xl font-bold">Coming soon!</h3>
+                        <p>Coming soon!</p>
                         <div class="flex place-items-center gap-4 mt-4">
                             <a href="#" class="relative font-bold py-2 px-4 overflow-hidden group border-b-2 border-neutral-400 transition-all duration-500 ease-in-out hover:text-white before:content-[''] before:absolute before:inset-0 before:bg-neutral-400 before:translate-y-full hover:before:translate-y-0 before:transition-transform before:duration-500 before:ease-in-out">
                                 <span class="relative z-10">More</span>
